@@ -1,0 +1,14 @@
+*.bin
+*.sh
+*.nds
+*.txt
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+*.idb
+*.csv
+arm79.elf
+arm7.elf
+__pycache__/*
