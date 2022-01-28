@@ -63,7 +63,8 @@ nds_header = NDSHeader(sys.argv[1])
 nds_header.pretty_print()
 
 nds_header.dump()
-nds_header.parse_arm7i_overlay()
+if nds_header.is_dsi():
+  nds_header.parse_arm7i_overlay()
 
 # Create ARM7 ELF
 num_segs_added = 0
